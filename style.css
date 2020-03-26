@@ -9,7 +9,7 @@
   36% {color:yellow}
   54% {color:green}
   72% {color:blue}
-  90% {coloc:purple}
+  90% {color:purple}
   100%{color:purple}
 }
 
@@ -23,11 +23,11 @@ html,body{
 }
 
 .colorchange:hover{
-  animation: rainbow 15s
+  animation: rainbow 15s;
 }
 
 .travel{
-  font-size: 200px;
+  font-size: 300px;
   font-weight:700;
 }
 
@@ -74,7 +74,7 @@ color:white;
 
 .textopacity:hover{
   opacity: 70%;
-  transition:5s
+  transition:5s;
 }
 
 .help{
