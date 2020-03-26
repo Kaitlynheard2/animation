@@ -67,11 +67,18 @@ color:white;
   font-size:150px
 }
 .textgrow:hover{
-  color:black;
+  color:#8340c7;
   animation:grow 15s;
 }
 
 .textopacity:hover{
   opacity: 70%;
   transition:15s
+}
+
+.help{
+  font-size:20px;
+  position: relative;
+  color: #8340c7;
+  text-align: center;
 }
