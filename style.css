@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,700i,800,800i,900,900i&display=swap');
 @keyframes grow{
-  50% {font-size: 350px}
+  50% {font-size: 250px}
 }
 
 @keyframes rainbow{
@@ -27,7 +27,8 @@ html,body{
 }
 
 .travel{
-  font-size: 200px;
+  font-size: 500px;
+  font-weight:700;
 }
 
 .link{
@@ -64,21 +65,20 @@ color:white;
   font-style: italic;
 }
 .textgrow{
-  font-size:150px
+  font-size:200px
 }
 .textgrow:hover{
   color:#8340c7;
-  animation:grow 15s;
+  animation:grow 5s;
 }
 
 .textopacity:hover{
   opacity: 70%;
-  transition:15s
+  transition:5s
 }
 
 .help{
   font-size:20px;
-  position: relative;
   color: #8340c7;
   text-align: center;
 }
